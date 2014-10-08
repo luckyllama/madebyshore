@@ -97,12 +97,25 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+  font-family: 'founders-grotesk';
+  src: url('fonts/FoundersGroteskWeb-Light.eot');
+  src: url('fonts/FoundersGroteskWeb-Light.eot?#iefix') format('embedded-opentype'),
+       url('fonts/FoundersGroteskWeb-Light.woff') format('woff');
+  font-weight: normal;
+}
 
+@font-face {
+  font-family: 'founders-grotesk';
+  src: url('fonts/FoundersGroteskWeb-Medium.eot');
+  src: url('fonts/FoundersGroteskWeb-Medium.eot?#iefix') format('embedded-opentype'),
+       url('fonts/FoundersGroteskWeb-Medium.woff') format('woff');
+  font-weight: bold;
+}
 
-
-
-
-
+body {
+   font: 16px/1.1 'founders-grotesk', sans-serif;
+}
 
 
 

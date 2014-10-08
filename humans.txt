@@ -3,11 +3,12 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Joseph King
+    Julian Strait
 
 # THANKS
 
-    <name>
+    Site implementation by Frank Hadder
 
 # TECHNOLOGY COLOPHON
 
