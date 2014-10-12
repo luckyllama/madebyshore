@@ -113,18 +113,127 @@ textarea {
   font-weight: bold;
 }
 
+/* main color: #194c2d */
+html { font-size: 18px; }
 body {
-   font: 16px/1.1 'founders-grotesk', sans-serif;
+   color: #194c2d;
+   font: 18px/1.1 'founders-grotesk', serif, sans-serif;
 }
 
+a {
+   color: #194c2d;
+   text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+h1, h2 {
+   font-size: 30px;
+   font-size: 1.667rem;
+}
+h1, h2, h3 { font-weight: bold; }
+h3 {
+   font-size: 18px;
+   font-size: 1rem;
+}
 
+.page {
+   width: 100%;
+   max-width: 1380px;
+   padding: 0 80px;
+   margin: 0 auto 80px;
+   box-sizing: border-box;
+}
 
+header {
+   padding: 58px 80px;
+   position: fixed;
+   background: #fff;
+   width: 100%;
+   max-width: 1380px;
+   margin: 0 -80px;
+   box-sizing: border-box;
+   z-index: 10;
+}
+header h1 {
+   margin: 0;
+   display: inline-block;
+   line-height: 1;
+}
+header a {
+   display: inline-block;
+   line-height: 2.3;
+   font-weight: bold;
+}
+header nav {
+   display: inline-block;
+   float: right;
+   padding-top: 15px;
+}
+header nav a { }
 
+.main-content {
+   padding-top: 166px;
+   z-index: 5;
+}
 
+.row {
+   overflow: hidden;
+   clear: both;
+   margin: 0 -20px;
+}
 
+#instafeed {
+   margin: -20px;
+   overflow: hidden;
+   clear: both;
+}
+#instafeed a {
+   padding: 20px;
+   float: left;
+   width: 33.33%;
+   box-sizing: border-box;
+}
+#instafeed a img {
+   width: 100%;
+   opacity: 0;
+   -webkit-transition: opacity .2s;
+   transition: opacity .2s;
+}
 
+.col-2, .col-4 {
+   padding: 0 20px;
+   float: left;
+   width: 50%;
+   box-sizing: border-box;
+}
+.col-4 { width: 25%; }
 
+.about {
+   margin-top: 70px;
+   margin-bottom: 40px;
+   font-size: 30px;
+   font-size: 1.667rem;
+   line-height: 1.2;
+}
+.about h2, .about p { margin: .733em 0; }
+.about h2 {
+   margin-top: 0;
+}
+.offerings {
+   line-height: 1.4;
+}
+.offerings h3 {
+   margin: 0;
+}
 
+hr {
+   margin: 73px 0;
+   border-top: solid 2px #e2e2e2;
+}
+
+footer {
+   font-weight: bold;
+}
+footer .col-r:first-child { margin-left: -40px;
 
 /* ==========================================================================
    Helper classes
