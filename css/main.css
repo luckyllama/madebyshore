@@ -261,7 +261,8 @@ footer .col-r:first-child {
   #instafeed a { width: 50%; }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 460px) {
+  .col-4 { width: 100%; }
   #instafeed a { width: 100%; }
 }
 
