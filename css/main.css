@@ -240,6 +240,8 @@ footer .col-r:first-child {
 }
 
 @media screen and (max-width: 1000px) {
+    header { position: fixed; top: 0; }
+    .main-content { padding-top: 100px; }
     .col-4 { width: 50%; }
 }
 
