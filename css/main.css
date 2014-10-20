@@ -203,6 +203,7 @@ header nav a { }
    opacity: 0;
    -webkit-transition: opacity .2s;
    transition: opacity .2s;
+   transform: translateZ(0);
 }
 #instafeed a:hover img {
     opacity: .7 !important;
