@@ -197,12 +197,14 @@ header nav a { }
 #instafeed a {
     background: #194c2d;
     display: inline-block;
+    width: 100%;
 }
 #instafeed a img {
    width: 100%;
    opacity: 0;
-   -webkit-transition: opacity .2s;
-   transition: opacity .2s;
+   -webkit-transition: opacity .3s;
+   transition: opacity .3s;
+   -webkit-transform: translateZ(0);
    transform: translateZ(0);
 }
 #instafeed a:hover img {
