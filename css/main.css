@@ -195,10 +195,10 @@ header nav a { }
    box-sizing: border-box;
 }
 #instafeed a {
-    background: #194c2d;
     display: inline-block;
     width: 100%;
 }
+#instafeed a.unveiled { background: #194c2d; }
 #instafeed a img {
    width: 100%;
    opacity: 0;
