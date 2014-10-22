@@ -195,10 +195,21 @@ header nav a { }
    box-sizing: border-box;
 }
 #instafeed a {
+    position: relative;
     display: inline-block;
     width: 100%;
 }
-#instafeed a.unveiled { background: #194c2d; }
+#instafeed a span {
+    background: #194c2d;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    opacity: 0;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+#instafeed a:hover span { opacity: .3; }
 #instafeed a img {
    width: 100%;
    opacity: 0;

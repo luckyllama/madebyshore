@@ -11,12 +11,10 @@ var feed = new Instafeed({
    limit: 60,
    resolution: instagramWidth <= 310 ? 'low_resolution' : 'standard_resolution',
    sortBy: 'most-recent',
-   template: '<div class="item"><a href="{{link}}"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="{{image}}" /></a></div>',
+   template: '<div class="item"><a href="{{link}}"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="{{image}}" /><span></span></a></div>',
    after: function () {
        $("#instafeed img").unveil(300, function() {
-          var $link = $(this).parent();
           $(this).load(function() { this.style.opacity = 1; });
-          setTimeout(function () { $link.addClass("unveiled"); }, 500);
        });
    }
 });
